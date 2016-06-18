@@ -1,0 +1,30 @@
+{
+  "title": "Ragtag",
+  "description": "Template strings for templates",
+  "text": "It's totes cray cray #onyarags",
+  "headerLinks": [
+    {
+      "href": "http://google.com",
+      "title": "Google"
+    },
+    {
+      "href": "http://yahoo.com",
+      "title": "Yahoo!"
+    },
+    {
+      "href": "http://bing.com",
+      "title": "Bing"
+    }
+  ],
+  "footerTitle": "Footer Title Text",
+  "footerLinks": [
+    {
+      "href": "http://apple.com",
+      "title": "Apple"
+    },
+    {
+      "href": "http://samsung.com",
+      "title": "Samsung"
+    }
+  ]
+}
