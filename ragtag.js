@@ -1,8 +1,9 @@
 module.exports = (literals, ...expressions) => {
   let compiledTemplate = '';
+  let literal;
 
   expressions.forEach((expression, i) => {
-    let literal = literals[i];
+    literal = literals[i];
 
     if (Array.isArray(expression)) {
       expression = expression.join('');
