@@ -14,5 +14,5 @@ module.exports = (literals, ...expressions) => {
 
   compiledTemplate += literals[literals.length-1];
 
-  return compiledTemplate;
+  return compiledTemplate.trim();
 }
